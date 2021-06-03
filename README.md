@@ -1,5 +1,7 @@
 # 404 Error Page
  [ENG] A 404 error page. Not responsive yet! [PT-BR] Uma página de erro 404. Não responsiva ainda!
+ 
+ ![404](https://user-images.githubusercontent.com/67246528/120575181-f1bd0580-c3f6-11eb-9196-32e41ea7ef20.gif)
 
  ## 🚀 Tecnologias
 
