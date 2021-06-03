@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background: #0A0B16;
+    background-image: url(assets/tentativa3.svg);
+    
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    position: static;
+}
+
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.home, .back {
+    border: 0.1px solid white;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.home {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.home:hover, .home:focus, .home:active {
+    -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.back {
+    margin-right: 0;
+    display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.back:hover, .back:focus, .back:active {
+    -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
+
+.foguete {
+    position: relative;
+   top: -5rem;
+   left: 20rem;
+   
+}
+
+.vetor {
+    position: relative;
+    top: 5rem;
+    left: 10rem;
+}
+
+.cinquenta img{
+    position: absolute;
+    left: 70rem;
+    bottom: 5rem;
+}
+
+.sessenta {
+    position: absolute;
+    left: 60rem;
+    top: 5rem;
+}
+
+.setenta {
+    position: absolute;
+    left: 20rem;
+    bottom: 32rem;
+}
+
+.oitenta {
+    position: absolute;
+    right: 20rem;
+    bottom: 15rem;
+}
+
+.astronauta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 5rem;
+
+}
+
+
+
